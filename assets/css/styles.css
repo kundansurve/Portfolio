@@ -532,7 +532,7 @@
             background-color: var(--white-color);
         }
         .home__container {
-            height: 100vh;
+            height: 75vh;
             grid-template-rows: 1.7fr 1fr;
             row-gap: 0;
         }
@@ -554,9 +554,8 @@
             width: 165px;
         }
         .skills__container {
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            column-gap: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
         }
         .portfolio__container {
             grid-template-columns: repeat(3, 1fr);
@@ -565,7 +564,7 @@
         }
         .contact__container {
             grid-template-columns: repeat(2, 1fr);
-            justify-content: center;
+            justify-items: center;
         }
         .footer__container {
             grid-template-columns: repeat(3, 1fr);
