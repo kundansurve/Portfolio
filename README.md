@@ -5,6 +5,6 @@ Skills:
 	jav
 	html
 	css..
-Project:
+Projects:
 	Mysore tourism(DSC hackathon)
 " 
