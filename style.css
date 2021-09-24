@@ -834,7 +834,12 @@ body{
   background-color: var(--white);
   color:white;
 }
-
+.img2{
+  margin-top:30px;
+}
+.home-content a{
+  margin: auto;
+}
 }
 .tansparent{
   background-color: var(--white);
