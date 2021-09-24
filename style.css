@@ -23,7 +23,7 @@ body{
 nav{
   position: fixed;
   height: 70px;
-  width: 100%;
+  width: 100vw;
   background: var(--nav-main);
   border-bottom: 1px solid white;
   z-index: 3;
@@ -745,7 +745,20 @@ footer img{
   margin-bottom:0px;
   color:white;
 }
+@media (max-width: 500px) {
+h1{
+  font-size:24px;
+}
+  h2{
+  font-size:20px;
+}
+h3{
+  font-size:16px;
+}
+}
 @media only screen and (max-width: 700px) {
+
+
   .smoothSlideContainer{
     display: none;
   }
@@ -777,4 +790,53 @@ body{
 .profiles img{
   width: 50px;
     max-height: 40px;
+}
+@media screen and (max-width:500px) {
+  .location iframe{
+    width:80vw;
+    height: 80vw;
+  }
+  form{
+    width:100vw;
+  }
+  textarea{
+    width:70vw;
+  }
+  h2{
+    font-size: 15px;
+  }
+  .name-email{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  form button{
+    width: 80vw;
+  }
+
+  .home-content h2{
+    text-align: center;
+    font-size:30px;
+  }.home-content h3,span{
+  font-size: 30px;
+  text-align: center;
+  
+}
+.home-content p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom:50px;
+}
+.tansparent{
+  background-color: var(--white);
+  color:white;
+}
+
+}
+.tansparent{
+  background-color: var(--white);
+  color:white;
 }

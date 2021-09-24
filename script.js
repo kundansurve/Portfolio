@@ -78,60 +78,6 @@ window.onload=()=>{
       darkmode=false;  
     }
   });
-  document.querySelector('#right').addEventListener("click", function(){
-    if(document.querySelector('#skillset1').style.display=='none')return; 
-    let i=0;
-    let j=0;
-    while(i< 100){
-      setTimeout(()=>{ document.querySelector('#skillset1').style.left="-"+j+"vw";
-        j++;
-      },i*15);
-      i++;
-    }
-   setTimeout(()=>{document.querySelector('#skillset1').style.display="none";}, 1500);
-    
-   document.querySelector('#skillset2').style.display="grid";
-    
-     let k=0;
-     let l= 100;
-    while(k< 100){
-      setTimeout(()=>{ document.querySelector('#skillset2').style.left=l+"vw";
-        l--;
-      },k*15);
-      k++;
-    }
-    
-  });
-  
-  document.querySelector('#left').addEventListener("click", function(){
-    if(document.querySelector('#skillset2').style.display=='none')return;
-    let i=0;
-    let j= 100;
-    while(i< 100){
-      setTimeout(()=>{ document.querySelector('#skillset1').style.left="-"+j+"vw";
-        j--;
-      },i*15);
-      i++;
-    }
-   setTimeout(()=>{document.querySelector('#skillset2').style.display="none";}, 1500);
-     document.querySelector('#skillset1').style.display="grid";
-    
-     let k=0;
-     let l=0; 
-    while(k< 100){
-      setTimeout(()=>{ document.querySelector('#skillset2').style.left=l+"vw";
-        l++;
-      },k*15);
-      k++;
-    }
-  });
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-  document.querySelector(".icon").addEventListener('click',myFunction)
+  for(let i=0;i<3;i++){
+  document.querySelectorAll(".transparent")[i].style.backgroundColor="transparent";}
 }
