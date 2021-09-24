@@ -840,6 +840,9 @@ body{
 .home-content a{
   margin: auto;
 }
+.home-content{
+  align-items: center;
+}
 }
 .tansparent{
   background-color: var(--white);
