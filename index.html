@@ -1,77 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
+    <title>Kdsurve Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <!-- ===== BOX ICONS ===== -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-    <title>Portfolio Kundan Surve</title>
-</head>
-
+   </head>
 <body>
-    <!--===== HEADER =====-->
-    <nav class="nav bd-grid">
-
-        <div class=" nav__menu " id="nav-menu ">
-
-            <a class="navbar_option" href="#home" class="nav__link active "><img src="assets/img/home.png" alt=""></a>
-            <a class="navbar_option" href="#about " class="nav__link "><img src="assets/img/about.png" alt=""></a>
-            <a class="navbar_option" href="skills.html" class="nav__link "><img src="assets/img/skills.png" alt=""></a>
-            <a class="navbar_option" href="certificate.html" class="nav__link "><img src="assets/img/certificate.png" alt=""></a>
-            <a class="navbar_option" href="projects.html" class="nav__link "><img src="assets/img/project.png" alt=""></a>
-            <a class="navbar_option" href="contact.html " class="nav__link "><img src="assets/img/contact1.png" alt=""></a>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Kdsurve</a></div>
+      <ul class="nav-links">
+        
+      </ul>
+      <div class="dropdown">
+        <button class="dropbtn"><img style="width:30px; height:30px;" src="https://img.icons8.com/ios-filled/50/ffffff/menu--v1.png"/></button>
+        <div class="dropdown-content">
+          <a class="li" id="homeLink" href="#">Home</a>
+        <a class="li" id="aboutLink" href="#about">About</a>
+        <a class="li" id="skillsLink" href="#skills">Skills</a>
+        <a class="li" id="certificateLink" href="#certificate">Certificate</a>
+        <a class="li" id="projectsLink" href="#projects">Projects</a>
+        <a class="li" id="contactLink" href="#contact">Contact</a>
         </div>
-    </nav>
-    <header class="l-header">
+  </nav>
 
-
-        <main class="l-main ">
-            <!--===== HOME =====-->
-            <section class="home " id="home">
-                <div class="home__container">
-                    <h1>Kundan Surve</h1>
-                    <h3>Software Developer</h3>
-
-                </div>
-            </section>
-    </header>
-
-    <!--===== ABOUT =====-->
-    <section class="about__section" id="about">
-        <div class="outer_about">
-
-            <div class="line_element "> </div>
-
-            <div class="mid_about"></div>
-
-            <div class="about__container">
-
-
-
-                <img src="assets/img/perfil.png " alt=" ">
-
-
-                <div class="about__info">
-                    <h2 class="about__subtitle">I'am Kundan Surve</h2>
-                    <span class="about__profession">Software Developer</span>
-                    <p class="about__text ">Highly energetic SDE Aspirer. Experienced Programming head at Workattech MESCOE and Coordinator at DSC MESCOE. Strong Competitive Programmer and communication professional with a Bachelor of Engineering - BE focused in Computer Engineering
-                        from Modern Education Society's College of Engineering, Pune. </p>
-
-                    <div class="about__social">
-                        <a href="https://www.linkedin.com/in/kundan-surve-593b841aa " class="about__social-icon "><i class='bx bxl-linkedin' ></i></a>
-                        <a href="https://github.com/kundansurve " class="about__social-icon "><i class='bx bxl-github' ></i></a>
-                    </div>
-                </div>
+  <section class="home-content">
+    <div class="appearance">
+      <div class="light-dark">
+        <i class="btn fas fa-moon" id="dark-mode" style="color: white"></i>
+      </div>
+    </div>
+    <div class="arrange">
+    <div class="texts" style="float: left">
+      <h2 class="text" >Hello! <span>Myself Kundan Surve</span></h2>
+      <h3 class="text">I'm <span class="timetotime">Software Developer</span></h3>
+      <p>Highly energetic Software Developer with skilled in Full-stack Webdevelopement, Coding, Competitive programming.</p>
+      <div class="button">
+      <a href="img/Kdsurve Resume.pdf">Download Resume</a>
+      </div>
+    </div>
+    <img src="undraw_software_engineer_lvl5.svg">
+    </div>
+  </section>
+  <div class="scroll">
+  <div class="container" id="about">
+    <h2 class="sub-title">About</h2>
+    <div class="about-flex">
+    <div class="about-me">
+       <h2>Software Developer</h2>
+	<p>Hey! Myself Kundan Surve. Currently pursuing BE in Computer Engineering At M.E.S College of Engineering, Pune. I am highly skilled at Fullstack Web developement, coding and Competitive Programming as well. I am also the Technical Core Member at GDSC MESCOE and Programming Head at Workattech Mescoe.Here are my some Profiles </p>
+  <div class="profiles"><a href="https://github.com/kundansurve" frameborder="0"><img src="img/icons8-github.svg" alt=""></a> <a href="https://www.codechef.com/users/kundansurve" src="" frameborder="0"><img src="./img/codechef.svg" alt=""></a> <a href="https://www.hackerrank.com/kundansurve01" frameborder="0"><img src="img/icons8-hackerrank.svg" alt=""></a></div>
+  </div>
+ <img class="img2"src="./img/perfil.png"/>
+  </div>
+	</div>
+	<!--about-model----------------->
+  <div class="container" id="skills">
+<h2 class="sub-title">Skills & Technologies</h2>
+<div class="skill-flex">
+	<div class="skillbox">
+		<img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+		<h3>C++</h3>
+		</div>
+			<div class="skillbox">
+		<img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+		<h3>Python</h3>
+		</div>
+			<div class="skillbox">
+		<img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+		<h3>Java</h3>
+		</div>
+			<div class="skillbox">
+		<img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+		<h3>HTML</h3>
+		</div>
+			<div class="skillbox">
+		<img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+		<h3>CSS</h3>
+		</div>
+    <div class="skillbox">
+      <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+      <h3>Javascript</h3>
+      </div>
+      <div class="skillbox">
+        <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+        <h3>Git</h3>
+        </div>
+      <div class="skillbox">
+        <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+        <h3>Reactjs</h3>
+        </div>
+    <div class="skillbox">
+      <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+      <h3>NodeJS</h3>
+    </div>
+    <div class="skillbox">
+      <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+      <h3>Express</h3>
+      </div>
+      <div class="skillbox">
+        <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+        <h3>MongoDB</h3>
+        </div>
+        <div class="skillbox">
+          <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+          <h3>Problem Solving</h3>
+          </div>
+          <div class="skillbox">
+            <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+            <h3>Object Oriented Programming</h3>
             </div>
-        </div>
-    </section>
+            <div class="skillbox">
+              <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+              <h3>Data structures & Algorithm</h3>
+              </div>
+              <div class="skillbox">
+                <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/000000/external-tick-user-interface-flatart-icons-flat-flatarticons.png"/>
+                <h3>Rest API</h3>
+                </div>
+</div>
+  </div>
+<div class="container" id="certificate">
+<h2 class="sub-title">Certificate</h2>
+<ul class="cards">
+  <li class="cards__item">
+    <div class="card">
+      <img class="card__image card__image--fence" src="img/cf1.png"/>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <img class="card__image card__image--fence" src="img/cf2.png"/>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <img class="card__image card__image--fence" src="img/cf3.png"/>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <img class="card__image card__image--fence" src="img/cf4.jpg"/>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <img class="card__image card__image--fence" src="img/cf7.jpeg"/>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <img class="card__image card__image--fence" src="img/cf6.jpg"/>
+    </div>
+  </li>
+</ul>
+  </div>
+  <div class="container" id="projects">
+    <h2 class="sub-title">Projects</h2>
+    
+    <div class="blog-card">
+      
+      <div class="meta">
+        <div class="photo" style="background-image: url(img/project1.jpeg)"></div>
+        <ul class="details">
+          <li class="author"><a href="https://uitility-app.netlify.app/">Demo</a></li>
+          <li class="date"><a href="https://github.com/kundansurve/utility-app">code</a></li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Utility Apps</h1>
+        <h2>HTML/CSS, Javascrip</h2>
+        <p> Developed a website where user can perform different computations such as encoding URL, decoding URL, unit converters, Timestamp converter, RGB to HEX converter and vice versa and many more.</p>
 
+      </div>
+    </div>
+    
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(img/project2.jpeg)"></div>
+        <ul class="details">
+          <li class="author"><a href="https://weburlshort.herokuapp.com/">Demo</a></li>
+          <li class="date"><a href="https://github.com/kundansurve/url_shortner">code</a></li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>URL Shorten</h1>
+        <h2>HTML/CSS, NodeJS Express,Rest API</h2>
+        <p>Website in which user can convert long URLs to short URLs and it also stores the records of URLs recently shortened.</p>
+      </div>
+    </div>
+    <div class="blog-card">
+      
+      <div class="meta">
+        <div class="photo" style="background-image: url(img/project3.jpeg)"></div>
+        <ul class="details">
+          <li class="author"><a href="https://developerr-profile.herokuapp.com/">Demo</a></li>
+          <li class="date"><a href="https://github.com/kundansurve/Dev-Profile">code</a></li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Developer Profile</h1>
+        <h2> HTML/CSS, ReactJS, NodeJS Express, Rest API,GitHub API</h2>
+        <p> A platform where any developer can create their profile and take a look on other’s profile. The developer’s profile consists the
+          developer’s info with profile links of GitHub, Codechef, HackerRank, linkedin, Medium and all github public repositories links
+          with description.</p>
+
+      </div>
+    </div>
+    
+    <div class="blog-card alt">
+      <div class="meta">
+        <div class="photo" style="background-image: url(img/project4.jpeg)"></div>
+        <ul class="details">
+          <li class="author"><a href="https://mysuru.pythonanywhere.com/">Demo</a></li>
+          <li class="date"><a href="https://github.com/Vaibhav-84/DSC_WOW_Mysuru_Tourism">code</a></li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Mysore Tourism</h1>
+        <h2>HTML/CSS, Python, Django</h2>
+        <p>A project which was build for an Code of duty hackathon. The main purpose of the website is to facilitate the offline customer
+          online specially in this pandemic area and connecting online and offline guides with tourist ,It provides recommendation of top
+          tourists places with navigation which makes your tour faster and easier with maps.</p>
+      </div>
+    </div>
+    <div class="blog-card">
+      
+      <div class="meta">
+        <div class="photo" style="background-image: url(img/project5.jpeg)"></div>
+        <ul class="details">
+          <li class="author"><a href="https://movie-review28.herokuapp.com/">Demo</a></li>
+          <li class="date"><a href="https://github.com/kundansurve/Movie-Review">code</a></li>
+        </ul>
+      </div>
+      <div class="description">
+        <h1>Movie Review Website </h1>
+        <h2>HTML/CSS, ReactJS, NodeJS Express, Rest API, MongoDB</h2>
+        <p> A website which provides ratings, reviews and information of multiple movies that can guide user to watch movies. The user
+          can also rate and review any move once by signing (if account is not registered) or login (if user is already registered).</p>
+      </div>
+    </div>
+    
+  <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+    <script src="https://cdpn.io/cp/internal/boomboom/pen.js?key=pen.js-a8442c7f-aa58-6cce-0a59-1a4e3a3f16b4" crossorigin=""></script>
+  
+  
+  </div>
+  <div class="container" id="contact">
+<h2 class="sub-title">Contact</h2>
+<div class="contact-me">
+  <div class="location"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.5160372790283!2d74.7572093147615!3d20.9317819860511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDU1JzU0LjQiTiA3NMKwNDUnMzMuOCJF!5e0!3m2!1sen!2sin!4v1632419493248!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+<form action="https://airform.io/kundansurve01@gmail.com" method="post">
+  <h2 style="text-align:left">Interested to work together? Let's talk</h2>
+  <div class="name-email"><input type="text" name="name" placeholder="Name">
+  <input type="email" name="Email" placeholder="Email"></div>
+  <textarea name="message" placeholder="Enter your message"></textarea>
+  <button>Send</button>
+</form>
+
+</div>
+
+</div>
+</div>
+<footer><p>Made with <img src="https://img.icons8.com/ios-glyphs/30/fa314a/like--v1.png"/> by Kdsurve</p></footer>
+  <script src="script.js"></script>
+  
 </body>
-
 </html>

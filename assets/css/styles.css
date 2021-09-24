@@ -1,20 +1,20 @@
     body {
         background-color: rgb(241, 240, 236);
     }
-    
+    .hamburger-menu{
+        display: none;
+        z-index:4;
+    }
     .l-header {
-        /*background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
-    */
         background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/img/background.png');
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 80%;
         height: 100%;
         color: white;
         position: absolute;
         top: 0px;
         left: 0px;
         right: 0px;
-        border-radius: 0px 0px 50px 50px;
     }
     
     .profile_img {
@@ -74,7 +74,7 @@
     .home {
         width: auto;
         height: auto;
-        padding-top: 200px;
+        padding-top: 13%;
     }
     
     .home__container h1 {
@@ -91,7 +91,7 @@
     
     .about__section {
         position: relative;
-        top: 500px;
+        top: 55vh;
         background-color: transparent;
         display: flex;
         justify-content: center;
@@ -191,3 +191,148 @@
     .outer_about {
         height: 650px;
     }
+    #menu__toggle {
+        opacity: 0;
+      }
+      
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+      
+      .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+      
+        width: 26px;
+        height: 26px;
+      
+        cursor: pointer;
+        z-index: 4;
+      }
+      
+      .menu__btn > span,
+      .menu__btn > span::before,
+      .menu__btn > span::after {
+        display: block;
+        position: absolute;
+      
+        width: 100%;
+        height: 2px;
+      
+        background-color: #616161;
+      
+        transition-duration: .25s;
+      }
+      .menu__btn > span::before {
+        content: '';
+        top: -8px;
+      }
+      .menu__btn > span::after {
+        content: '';
+        top: 8px;
+      }
+      
+      .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        z-index: 3;
+        width: 300px;
+        height: 100%;
+      
+        margin: 0;
+        padding: 80px 0;
+      
+        list-style: none;
+      
+        background-color: rgba(0,0,0,0.8);
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        color:white;
+        transition-duration: .25s;
+      }
+      
+      .menu__item {
+        display: block;
+        padding: 12px 24px;
+      
+        color: orange;
+      
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+      
+        text-decoration: none;
+      
+        transition-duration: .25s;
+      }
+    .homeimg{
+        height:100%;
+        border-radius: 0px 0px 100px 100px;
+    }
+    .menu__box img{
+        background-color: orange;
+        border-radius: 50% 50% 50% 50%;
+        height: 35px;
+        width: 35px;
+        margin-left: 20px 
+    }
+    .menu__box li{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 20px;
+    }
+  #skills__container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  .skill__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    #skills img{
+        background-color: transparent;
+        width: 60px;
+        height: 60px;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        height: 70px
+    }
+@media screen and (max-width:770px){
+    .hamburger-menu{
+        display: flex;
+    }
+    nav{
+        display: none;
+    }
+    .home{
+        justify-content: center;
+        text-align: center;
+    }
+}
