@@ -831,8 +831,8 @@ body{
   margin-bottom:50px;
 }
 .tansparent{
-  background-color: var(--white);
-  color:white;
+  background-color: white;
+
 }
 .img2{
   margin-top:30px;
@@ -847,4 +847,7 @@ body{
 .tansparent{
   background-color: var(--white);
   color:white;
+}
+form h2{
+  color: var(--black);
 }
