@@ -781,7 +781,7 @@ body{
 /*Home*/
 .profiles{
   display: flex;
-  max-width:400px;
+  max-width:100%;
 }
 .profiles a{
     width: 50px;
