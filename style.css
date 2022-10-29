@@ -781,6 +781,7 @@ body{
 /*Home*/
 .profiles{
   display: flex;
+justify-content:space-evenly;
   max-width:400px;
 }
 .profiles a{
