@@ -781,11 +781,11 @@ body{
 /*Home*/
 .profiles{
   display: flex;
-justify-content:space-evenly;
   max-width:400px;
 }
 .profiles a{
     width: 50px;
+	margin:10px;
     max-height: 40px;
 }
 .profiles img{
